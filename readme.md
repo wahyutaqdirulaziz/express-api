@@ -1,0 +1,6 @@
+- pertama copy file env.example lalu isikan nama db dan user dan password db anda
+- lalu jalankan perintah npm install
+- lalu jalankan migartion npx sequelize-cli db:migrate
+- membuat migration dan model poto npx sequelize-cli model:generate --name Photo --attributes title:string,caption:text,poster_image_url:text,Userid:number
+- membuat migration dan model comment 
+- membuat controllers poto dan comment
